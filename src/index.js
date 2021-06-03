@@ -13,8 +13,10 @@ function submit(){
 }
 
 function addListItem(){
+  
   new_item = document.createElement(p);
-  document.getElementById("task").appen
+  document.getElementById("task").appendChild(new_item);
+  
 }
 
 document.querySelector("form").addEventListener("submit", function(event) {
