@@ -14,7 +14,7 @@ function submit(){
 
 function addListItem(){
   new_item = document.createElement(p);
-  document.getElementById("")
+  document.getElementById("task")
 }
 
 document.querySelector("form").addEventListener("submit", function(event) {
